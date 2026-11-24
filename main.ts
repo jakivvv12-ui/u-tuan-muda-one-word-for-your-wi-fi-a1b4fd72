@@ -11,7 +11,7 @@ import { join } from "node:path";
 
 const WORD = "Flaky";
 
-function validate(word: string): void {
+function validate(word) {
   // Hard gate: 1-20 characters, no whitespace of any kind inside the word,
   // and the file must hold exactly this word — no trailing newline, so the
   // entry is 5 bytes and the byte tie-break is as small as the word allows.
